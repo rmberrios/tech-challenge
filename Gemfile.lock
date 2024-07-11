@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/mimemagicrb/mimemagic.git
+  revision: 01f92d86d15d85cfd0f20dabd025dcbd36a8a60f
+  ref: 01f92d86d15d85cfd0f20dabd025dcbd36a8a60f
+  specs:
+    mimemagic (0.3.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -132,15 +139,14 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
-    mimemagic (0.3.5)
     mini_mime (1.0.2)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.8.7)
     minitest (5.14.3)
     msgpack (1.4.2)
     multi_xml (0.6.0)
     nio4r (2.5.4)
-    nokogiri (1.11.1)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.13.10)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     parallel (1.20.1)
     parser (3.0.0.0)
@@ -245,7 +251,8 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
+    sqlite3 (1.6.9)
+      mini_portile2 (~> 2.8.0)
     temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
@@ -292,6 +299,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   listen (~> 3.3)
+  mimemagic!
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.1)
@@ -301,7 +309,7 @@ DEPENDENCIES
   selenium-webdriver
   slim
   spring
-  sqlite3 (~> 1.4)
+  sqlite3 (~> 1.6.9)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
@@ -312,4 +320,4 @@ RUBY VERSION
    ruby 2.6.6p146
 
 BUNDLED WITH
-   2.1.4
+   2.4.22
